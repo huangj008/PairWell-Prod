@@ -1,4 +1,4 @@
-import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
+//import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
 import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
 import imgCharity1 from "figma:asset/911838239dec33e6408aa8ba26e649aff43d37f0.png";
 import imgCharity2 from "figma:asset/d56183714a64e74e111307986e1c7ba9755e7699.png";
@@ -123,7 +123,7 @@ export default function DirectoryPage() {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/">
-                <img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />
+                {/*<img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />*/}
               </Link>
             </div>
             
