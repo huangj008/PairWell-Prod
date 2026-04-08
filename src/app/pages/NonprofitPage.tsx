@@ -1,4 +1,4 @@
-import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
+//import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
 import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
 import imgGroup8 from "figma:asset/8da2e0d43ba28d9ebdc12154aae2f29c2da83ffa.png";
 import imgHeroBackground from "figma:asset/3af8407c479b3c50b9d21203c0794304d39968ff.png";
@@ -290,7 +290,7 @@ export default function NonprofitPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <div className="space-y-4">
-              <img src={imgFooterLogo} alt="PairWell Logo" className="w-32 h-auto" />
+              {/*<img src={imgFooterLogo} alt="PairWell Logo" className="w-32 h-auto" />*/}
               <p className="text-sm md:text-base">
                 Connecting Funders & Nonprofits to Drive Meaningful Impact.
               </p>
