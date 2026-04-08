@@ -1,5 +1,5 @@
-import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
-import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
+//import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
+//import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
 import { CheckCircle, ArrowRight } from "lucide-react";
 import { Link } from "react-router";
 import { useSearchParams } from "react-router";
@@ -129,7 +129,7 @@ export default function SignupSuccessPage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <div className="space-y-4">
-              <img src={imgFooterLogo} alt="PairWell Logo" className="w-32 h-auto" />
+              {/* <img src={imgFooterLogo} alt="PairWell Logo" className="w-32 h-auto" />*/}
               <p className="text-sm md:text-base">
                 Connecting Funders & Nonprofits to Drive Meaningful Impact.
               </p>
