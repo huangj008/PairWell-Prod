@@ -1,5 +1,5 @@
 //import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
-import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
+//import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
 import imgGroup8 from "figma:asset/8da2e0d43ba28d9ebdc12154aae2f29c2da83ffa.png";
 import imgHeroBackground from "figma:asset/3af8407c479b3c50b9d21203c0794304d39968ff.png";
 import { useState, useEffect } from "react";
@@ -70,7 +70,7 @@ export default function NonprofitPage() {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/">
-                <img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />
+                {/*<img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />*/}
               </Link>
             </div>
             
