@@ -1,6 +1,6 @@
 import imgGroup4 from "figma:asset/1d8b7c241bc6f29337a06c57f5c8fbbf4c1c97e2.png";
 import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
-import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
+//import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
 import { useState, useEffect } from "react";
 import { Menu, X, Target, Users, Heart, Building2, TrendingUp, Shield } from "lucide-react";
 import { Link } from "react-router";
@@ -49,7 +49,7 @@ export default function AboutUsPage() {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/">
-                <img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />
+                {/*<img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />*/}
               </Link>
             </div>
             
