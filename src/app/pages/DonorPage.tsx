@@ -1,6 +1,6 @@
 import imgNewBackground from "figma:asset/6f7bc8f6b6d39c0e29f43e4ae59e1bc83ddb321d.png";
 import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
-import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
+//import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
 import imgGroup9 from "figma:asset/1f0a5ef089cacfe847d8d70741e15f03013d1136.png";
 import { useState, useEffect } from "react";
 import { Menu, X, CheckCircle2, TrendingUp, Heart, ChevronDown } from "lucide-react";
@@ -109,7 +109,7 @@ export default function DonorPage() {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/">
-                <img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />
+                {/*<img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />*/}
               </Link>
             </div>
             
