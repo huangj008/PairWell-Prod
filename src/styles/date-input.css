@@ -1,0 +1,9 @@
+/* Custom styling for date inputs to make calendar icon visible */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.3);
+  cursor: pointer;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  filter: invert(0.1);
+}
