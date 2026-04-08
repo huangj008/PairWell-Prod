@@ -14,7 +14,7 @@ import imgImage2 from "figma:asset/0599b740cb25777d1c667ec655a275a6819354c4.png"
 import imgImage3 from "figma:asset/3686d65dc265e3e1d05392eb8ef8d1634305858e.png";
 import imgImage4 from "figma:asset/6cb1cdd2b3b1aaf0a20c2c03f27d50573cd1bb28.png";
 import imgImage5 from "figma:asset/dbb0629d60dcda987588b4483f8e1a3612f8c641.png";
-import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
+//import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
 import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
 
 export default function Home() {
@@ -89,7 +89,7 @@ export default function Home() {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/">
-                <img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />
+                {/*<img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />*/}
               </Link>
             </div>
             
