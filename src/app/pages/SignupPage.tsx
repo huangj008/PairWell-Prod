@@ -1,4 +1,4 @@
-import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
+//import imgNavLogo from "figma:asset/bf13ae1cb860c8ce8df707faa88363ac05a2d647.png";
 import imgFooterLogo from "figma:asset/d58acd654a386e9b126468e74eac71f30aff0fc4.png";
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router";
@@ -199,7 +199,7 @@ export default function SignupPage() {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/">
-                <img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />
+                {/*<img src={imgNavLogo} alt="PairWell Logo" className="h-12 md:h-16 w-auto" />*/}
               </Link>
             </div>
             
